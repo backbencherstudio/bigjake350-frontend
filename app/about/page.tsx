@@ -9,8 +9,9 @@ import HeroSection from "@/components/common/HeroSection";
 
 export default function AboutPage() {
   return (
-    <div className="w-full max-w-7xl mx-auto font-sans">
-     
+    <div className="mx-auto font-sans">
+
+
 
       <HeroSection
         title="About - Notary Nexus & Apostille Services"
@@ -27,18 +28,21 @@ export default function AboutPage() {
 
 
 
-      <section className="bg-gradient-to-b from-white via-[#06742799] to-white px-6 lg:px-16 py-12 max-w-7xl mx-auto font-sans rounded-3xl shadow-xl">
-        {/* Top row: highlight + image */}
-        <div className="  flex flex-col sm:flex-row  justify-between items-center sm:items-start">
-          {/* Bio Highlight */}
-          <BioHighlight/>
+      <section className="bg-gradient-to-t from-green-800  to-white px-6 lg:px-16 py-12   mx-auto">
+        <div className="bg-gradient-to-b from-white via-[#06742799] to-white px-6 mt-8 mb-20 lg:px-16 py-12   mx-auto font-sans rounded-3xl shadow-sm">
+          {/* Top row: highlight + image */}
+          <div className="  flex flex-col sm:flex-row  justify-between items-center sm:items-start">
+            {/* Bio Highlight */}
+            <BioHighlight />
 
-          {/* Bio Image */}
-          <BioImage/>
+            {/* Bio Image */}
+            <BioImage />
+          </div>
+
+          {/* Bio Details Below */}
+          <BioDescription />
+
         </div>
-
-        {/* Bio Details Below */}
-        <BioDescription/>
       </section>
 
 
