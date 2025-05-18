@@ -1,3 +1,4 @@
+import Documents from '@/components/ApostilleDocument/Documents';
 import FloridaApostilleService from '@/components/ApostilleDocument/FloridaApostilleService';
 import ButtonReusable from '@/components/reusable/ButtonReuseble';
 import React from 'react'
@@ -52,6 +53,7 @@ export default function ApostilleDocument() {
             </div>
 
             <FloridaApostilleService />
+            <Documents />
         </>
 
     )
