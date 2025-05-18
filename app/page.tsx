@@ -13,14 +13,14 @@ export default function Home() {
           perspective: '1px',
           transformStyle: 'preserve-3d'
         }}>
-       <div>
-       <Image
-          src={businessLogo}
-          alt="no logo found"
-          className=" md:float-right w-[268px] md:w-[268px] "
-        />
-       </div>
-        <div className="relative bg-[#3e813e] rounded-t-lg text-white w-[50%] lg:w-[26%] h-1/2 mx-4 md:ml-[61px] text-center mt-8 md:mt-48 inline-block z-[1]">
+        <div className='flex justify-end'>
+          <Image
+            src={businessLogo}
+            alt="no logo found"
+            className=" md:float-right w-[200px] md:w-[268px] "
+          />
+        </div>
+        <div className="relative bg-[#3e813e] rounded-t-lg text-white sm:w-[50%] lg:w-[26%] h-1/2 mx-4 md:ml-[61px] text-center mt-8 md:mt-48 inline-block z-[1]">
           <div className='p-3 md:p-5 flex flex-col gap-2'>
             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">NOTARY NEXUS & APOSTILLE SERVICES</h1>
             <p className="font-sans text-sm md:text-base">* GENERAL NOTARY SERVICES</p>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="inline-block bg-[#D2B48C] -ml-5 p-4 md:p-9.5">
+        <div className="inline-block bg-[#D2B48C] w-full sm:w-auto sm:-ml-5 p-8 md:p-9.5">
           <span className="text-[#3e813e] text-[20px] md:text-[29px] font-bold">
             NEED NOTARY,<br />
             WE WILL TRAVEL.
