@@ -6,6 +6,7 @@ import MobileNotaryServices from '@/components/Home/MobileNotaryServices'
 import OurMobileNotaryServices from '@/components/Home/OurMobileNotaryServices'
 import WhyChoose from '@/components/Home/WhyChoose'
 import MeettheTeam from '@/components/Home/MeettheTeam'
+import Testimonials from '@/components/Home/Testimonials'
 
 export default function Home() {
   return (
@@ -56,7 +57,9 @@ export default function Home() {
       <OurMobileNotaryServices />
       <WhyChoose />
       <MeettheTeam />
+      <Testimonials />
     </>
   )
 }
+
 
