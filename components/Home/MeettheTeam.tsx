@@ -16,6 +16,7 @@ export default function MeettheTeam() {
             title: "CEO"
         }
     ]
+    
     return (
         <div className='container px-5 2xl:px-0 py-10'>
             <div className='flex flex-col gap-4'>
