@@ -11,9 +11,9 @@ export default function OurMobileNotaryServices() {
     }
 
     return (
-        <div className='container px-6 py-8'>
-            <h1 className='text-start text-2xl font-bold mb-8'>Our Mobile Notary Services</h1>
-            <p className='text-gray-500 font-medium mb-8'>With our comprehensive range of notary and related services, we’ll come to you to legalize all your important documents. At Notary Nexus & Apostille Services, our services extend beyond traditional notarial offerings, ensuring you experience a seamless and efficient process from start to finish.</p>
+        <div className='container px-5 2xl:px-0 py-8'>
+            <h1 className='text-2xl sm:text-3xl xl:text-4xl font-bold text-[#3E813E] mb-8'>Our Mobile Notary Services</h1>
+            <p className='text-gray-500 text-xl mb-8'>With our comprehensive range of notary and related services, we’ll come to you to legalize all your important documents. At Notary Nexus & Apostille Services, our services extend beyond traditional notarial offerings, ensuring you experience a seamless and efficient process from start to finish.</p>
 
             <div className='w-full'>
                 {services.map((item, index) => (

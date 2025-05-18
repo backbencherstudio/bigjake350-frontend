@@ -19,8 +19,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full border-b border-gray-300 px-6 py-4 bg-white sticky top-0 z-50">
-      <div className="container  flex justify-between items-center">
+    <nav className="w-full border-b border-gray-300  py-4 bg-white sticky top-0 z-50">
+      <div className="container px-5 2xl:px-0 flex justify-between items-center">
         <h1 className="text-xl font-serif text-green-700">NOTARY NEXUS</h1>
 
         {/* Desktop Nav */}
