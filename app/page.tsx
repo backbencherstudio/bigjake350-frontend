@@ -5,6 +5,7 @@ import Image from 'next/image'
 import MobileNotaryServices from '@/components/Home/MobileNotaryServices'
 import OurMobileNotaryServices from '@/components/Home/OurMobileNotaryServices'
 import WhyChoose from '@/components/Home/WhyChoose'
+import MeettheTeam from '@/components/Home/MeettheTeam'
 
 export default function Home() {
   return (
@@ -52,9 +53,9 @@ export default function Home() {
         </div>
       </div>
       <MobileNotaryServices />
-
       <OurMobileNotaryServices />
       <WhyChoose />
+      <MeettheTeam />
     </>
   )
 }
