@@ -1,3 +1,5 @@
+import ButtonReusable from "../reusable/ButtonReuseble";
+
 export default function Header() {
   return (
     <div className="bg-gradient-to-b from-white via-[#067427] to-white flex flex-col md:flex-row items-center md:justify-between border-b-2 border-gray-300 px-4 py-6 space-y-4 md:space-y-0">
@@ -6,12 +8,10 @@ export default function Header() {
       </h1>
 
       <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-4">
-        <button className="rounded-full border px-6 py-2 text-sm hover:bg-gray-200 text-green-100 hover:text-green-700 transition">
-          Apostille Your Document
-        </button>
-        <button className="rounded-full border px-6 py-2 text-sm hover:bg-gray-200 text-green-100 hover:text-green-700 transition">
-          Schedule A Notary
-        </button>
+
+
+        <ButtonReusable title=" Apostille Your Document" variant="outline" />
+        <ButtonReusable title="Schedule A Notary" variant="outline" />
       </div>
     </div>
   );

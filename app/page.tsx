@@ -2,10 +2,11 @@ import React from 'react'
 import bannerImage from "@/public/pictures/banner.png"
 import businessLogo from "@/public/pictures/business-logo2.png"
 import Image from 'next/image'
+import MobileNotaryServices from '@/components/Home/MobileNotaryServices'
 
 export default function Home() {
   return (
-    <div className="mx-auto font-sans">
+    <>
       <div className="relative w-full bg-fixed bg-center bg-no-repeat bg-cover overflow-hidden"
         style={{
           backgroundImage: `url(${bannerImage.src})`,
@@ -13,11 +14,11 @@ export default function Home() {
           perspective: '1px',
           transformStyle: 'preserve-3d'
         }}>
-        <div>
+        <div className=''>
           <Image
             src={businessLogo}
             alt="no logo found"
-            className=" md:float-right w-[200px] md:w-[268px]"
+            className="md:float-right w-[200px] md:w-[268px]"
           />
         </div>
         <div className="relative bg-[#3e813e] rounded-t-lg text-white sm:w-[50%] lg:w-[26%] h-1/2 mx-4 md:ml-[61px] text-center mt-8 md:mt-48 inline-block z-[1]">
@@ -48,9 +49,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <div className='bg-white'>
-        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error a, dolorum magni facere quae sequi libero vel, aspernatur eveniet architecto voluptatibus. Sunt maiores ex maxime, quidem, dolore consequuntur omnis praesentium suscipit aliquid similique molestiae labore reiciendis provident expedita alias voluptatem qui rem quam consectetur perspiciatis soluta laborum! Ratione eligendi at facilis eveniet, soluta aperiam delectus alias obcaecati autem ipsum atque iste id omnis aspernatur architecto exercitationem cupiditate consequatur? Blanditiis quis magnam, autem odio, quae consequatur quidem corrupti sint nulla doloremque, quos adipisci eligendi voluptatibus laboriosam. Cupiditate, quis at! Mollitia minima dolorum maiores eos laborum libero doloremque eaque molestias odit at expedita a earum cupiditate nam eius reiciendis debitis sapiente, sed sunt omnis assumenda consectetur quod! Enim, numquam placeat. Temporibus animi minima maxime fugiat porro, laudantium, culpa pariatur illum id eum doloremque aspernatur corrupti. Minus quae adipisci, ullam ut sequi alias minima natus non corrupti voluptatibus dicta aspernatur veritatis culpa, voluptatum aperiam aliquid maiores quod odio facilis! Qui quibusdam voluptate hic fugit odio impedit itaque nobis enim veniam nesciunt incidunt et id quas sint, error quo debitis, consectetur perspiciatis quos nulla eius, dolore ipsum. Aut iure consequatur cupiditate nihil natus saepe eum iste eaque</h1>
-      </div>
-    </div>
+      <MobileNotaryServices />
+    </>
   )
 }
