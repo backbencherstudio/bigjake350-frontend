@@ -5,7 +5,7 @@ interface HeroProps {
 
 export default function HeroSection({ title, imageUrl }: HeroProps) {
   return (
-    <section className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full rounded-xl overflow-hidden">
+    <section className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full  overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"

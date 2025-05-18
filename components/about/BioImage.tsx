@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function BioImage() {
   return (
-    <div className="w-full md:max-w-1/4 aspect-square  border rounded-full shadow-xl  overflow-hidden  ">
+    <div className="w-full md:max-w-[284px] aspect-square  border rounded-full shadow-xl  overflow-hidden  ">
     
       <Image
         src="/pictures/bio-picture.png"

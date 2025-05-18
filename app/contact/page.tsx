@@ -8,15 +8,17 @@ import HeroSection from "@/components/common/HeroSection";
 
 export default function ContactPage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 font-sans">
+    <div className="   mx-auto font-sans">
       <HeroSection
         title="Contact - Notary Nexus & Apostille Services"
-        imageUrl="/office-building.png"
+        imageUrl="/pictures/office-building.png"
       />
+      <div className="lg:mx-auto mx-6 my-12">
 
-      <div className="flex flex-col lg:flex-row bg-gradient-to-br from-green-600 to-green-900 text-white p-8 lg:p-16 gap-10 mt-12 rounded-lg shadow-md">
+      <div className=" flex   flex-col container  lg:flex-row bg-gradient-to-br from-green-600 to-green-900 text-white p-8 lg:p-16 gap-10  rounded-lg shadow-md">
         <ContactIntro />
         <ContactForm />
+      </div>
       </div>
     </div>
   );
