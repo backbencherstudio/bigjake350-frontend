@@ -13,11 +13,11 @@ export default function Home() {
           perspective: '1px',
           transformStyle: 'preserve-3d'
         }}>
-        <div className='flex justify-end'>
+        <div>
           <Image
             src={businessLogo}
             alt="no logo found"
-            className=" md:float-right w-[200px] md:w-[268px] "
+            className=" md:float-right w-[200px] md:w-[268px]"
           />
         </div>
         <div className="relative bg-[#3e813e] rounded-t-lg text-white sm:w-[50%] lg:w-[26%] h-1/2 mx-4 md:ml-[61px] text-center mt-8 md:mt-48 inline-block z-[1]">
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="inline-block bg-[#D2B48C] w-full sm:w-auto sm:-ml-5 p-8 md:p-9.5">
+        <div className="inline-block bg-[#D2B48C] w-full sm:w-auto sm:-ml-5 md:w-full lg:w-auto p-8 md:p-9.5">
           <span className="text-[#3e813e] text-[20px] md:text-[29px] font-bold">
             NEED NOTARY,<br />
             WE WILL TRAVEL.
