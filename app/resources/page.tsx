@@ -6,6 +6,7 @@ import HeroSection from '@/components/common/HeroSection'
 import NotaryPublicServices from '@/components/Resources/NotaryPublicServices'
 import WeProvide from '@/components/Resources/WeProvide'
 import NotaryServices from '@/components/Resources/NotaryServices'
+import Fingerprinting from '@/components/Resources/Fingerprinting'
 
 export default function Resources() {
     return (
@@ -35,6 +36,8 @@ export default function Resources() {
                 <WeProvide />
                 {/* Notary Services */}
                 <NotaryServices />
+                {/* Fingerprinting */}
+                <Fingerprinting />
             </div>
 
 
