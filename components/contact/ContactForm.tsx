@@ -17,7 +17,7 @@ export default function ContactForm() {
       {/* Name Fields */}
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <Label htmlFor="fname" className="text-white text-lg">
+          <Label htmlFor="fname" className=" /*/* text-lg">
             First Name
           </Label>
           <Input
@@ -28,7 +28,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <Label htmlFor="lname" className="text-white text-lg">
+          <Label htmlFor="lname" className=" /*/* text-lg">
             Last Name
           </Label>
           <Input
@@ -42,7 +42,7 @@ export default function ContactForm() {
 
       {/* Company */}
       <div>
-        <Label htmlFor="company-name" className="text-white text-lg">
+        <Label htmlFor="company-name" className=" /*/* text-lg">
           Company
         </Label>
         <Input
@@ -55,7 +55,7 @@ export default function ContactForm() {
 
       {/* Phone */}
       <div>
-        <Label htmlFor="phone" className="text-white text-lg">
+        <Label htmlFor="phone" className=" /*/* text-lg">
           Phone
         </Label>
         <Input
@@ -70,7 +70,7 @@ export default function ContactForm() {
 
       {/* Email */}
       <div>
-        <Label htmlFor="email" className="text-white text-lg">
+        <Label htmlFor="email" className=" /*/* text-lg">
           Email
         </Label>
         <Input
@@ -84,14 +84,14 @@ export default function ContactForm() {
 
       {/* Services Selection */}
       <div className="mt-4">
-        <p className="text-white text-lg font-medium">
+        <p className=" /*/* text-lg font-medium">
           What are you interested in?
         </p>
         <div className="flex flex-wrap gap-4 mt-2">
           {services.map((service) => (
             <label
               key={service}
-              className="flex items-center space-x-2 text-white text-base"
+              className="flex items-center space-x-2  /*/* text-base"
             >
               <input type="radio" name="services" value={service.toLowerCase()} />
               <span>{service}</span>
@@ -102,19 +102,19 @@ export default function ContactForm() {
 
       {/* File Upload */}
       <div>
-        <Label htmlFor="file" className="text-white text-lg">
+        <Label htmlFor="file" className=" /*/* text-lg">
           Upload your document
         </Label>
         <Input
           id="file"
           type="file"
-          className="text-white file:text-black"
+          className=" /*/* file:text-black"
         />
       </div>
 
       {/* Message */}
       <div>
-        <Label htmlFor="message" className="text-white text-lg">
+        <Label htmlFor="message" className=" /*/* text-lg">
           Message
         </Label>
         <Textarea

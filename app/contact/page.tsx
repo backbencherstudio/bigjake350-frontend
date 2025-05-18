@@ -13,9 +13,9 @@ export default function ContactPage() {
         title="Contact - Notary Nexus & Apostille Services"
         imageUrl="/pictures/office-building.png"
       />
-      <div className="lg:mx-auto mx-6 my-12">
+      <div className="lg:mx-auto  container px-6 py-12">
 
-      <div className=" flex   flex-col container  lg:flex-row bg-gradient-to-br from-green-600 to-green-900 text-white p-8 lg:p-16 gap-10  rounded-lg shadow-md">
+      <div className=" flex   flex-col   lg:flex-row text-white  bg-gradient-to-br from-green-600 to-green-900  p-8 lg:p-16 gap-10  rounded-lg shadow-md">
         <ContactIntro />
         <ContactForm />
       </div>

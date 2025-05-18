@@ -6,11 +6,11 @@ export default function ContactIntro() {
       <h4 className="text-lg mt-2">Fill in the form and let us know what you need</h4>
 
       <div className="flex flex-col md:flex-row gap-6 mt-6">
-        <div className="bg-white text-center text-black rounded-2xl px-6 py-4 flex-1">
+        <div className="bg-gray-100 text-center text-black rounded-2xl px-6 py-4 flex-1">
           <p className="font-semibold text-green-700">Mailing Address</p>
           <p className="text-gray-500 text-sm">1640 Metropolitan Circle, Tallahassee FL, 32308</p>
         </div>
-        <div className="bg-white text-center text-black rounded-2xl px-6 py-4 flex-1">
+        <div className="bg-gray-100 text-center text-black rounded-2xl px-6 py-4 flex-1">
           <p className="font-semibold text-green-700">Offices</p>
           <p className="text-gray-500 text-sm">1640 Metropolitan Circle, Tallahassee FL, 32308</p>
         </div>
