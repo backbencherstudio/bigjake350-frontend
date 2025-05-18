@@ -16,7 +16,7 @@ export default function MeettheTeam() {
             title: "CEO"
         }
     ]
-    
+
     return (
         <div className='container px-5 2xl:px-0 py-10'>
             <div className='flex flex-col gap-4'>
@@ -30,7 +30,7 @@ export default function MeettheTeam() {
                         <div className='bg-[#2563eb] rounded-full p-6'>
                             <User className='w-16 h-16 text-white' />
                         </div>
-                        <h3 className='mt-6 text-2xl font-bold text-black uppercase'>{member.name}</h3>
+                        <h3 className='mt-6 text-md md:text-xl font-bold text-black uppercase'>{member.name}</h3>
                         <p className='mt-2 text-gray-600 text-center'>{member.title}</p>
                     </div>
                 ))}

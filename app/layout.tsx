@@ -3,6 +3,7 @@ import "./globals.css";
 import { AppConfig } from "@/config/app.config";
 import Header from "@/components/common/header";
 import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 export const metadata: Metadata = {
   title: AppConfig().app.name,
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Header />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
