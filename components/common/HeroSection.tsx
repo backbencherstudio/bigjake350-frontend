@@ -13,7 +13,7 @@ export default function HeroSection({ title, imageUrl }: HeroProps) {
       />
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
+      <div className="relative z-10 flex items-center justify-center h-full text-center px-4 container">
         <h1 className="text-3xl sm:text-4xl lg:text-[64px] font-bold text-green-100 drop-shadow-md">
           {title}
         </h1>
