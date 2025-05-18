@@ -8,7 +8,7 @@ import HeroSection from "@/components/common/HeroSection";
 
 export default function ContactPage() {
   return (
-    <div className=" bg-gradient-to-b from-green-600 to-green-900 mx-auto font-sans">
+    <div className="   mx-auto font-sans">
       <HeroSection
         title="Contact - Notary Nexus & Apostille Services"
         imageUrl="/pictures/office-building.png"
