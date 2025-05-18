@@ -118,3 +118,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.conatiner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
