@@ -13,30 +13,36 @@ export default function Home() {
           perspective: '1px',
           transformStyle: 'preserve-3d'
         }}>
-        <Image
+       <div>
+       <Image
           src={businessLogo}
           alt="no logo found"
-          className="w-[268px] float-right"
+          className=" md:float-right w-[268px] md:w-[268px] "
         />
-        <div className="relative bg-[#3e813e] text-white w-[26%] h-1/2 ml-[61px] text-center mt-48 inline-block z-[1]">
-          <h1 className="title-panel-header">NOTARY NEXUS & APOSTILLE SERVICES</h1>
-          <p className="font-sans">* GENERAL NOTARY SERVICES</p>
-          <p className="font-sans">* LOAN SIGNING AGENT</p>
-          <p className="font-sans">* REMOTE ONLINE NOTARY</p>
-
-          <div className="bg-[#85ab85] w-[150%] text-right text-[33px] pr-[50px]">
-            <p className="mb-0 pt-[10px]">JEFFERY JACOBS</p>
-            <p className="mt-0 mr-[94px] pb-[10px]">CEO</p>
+       </div>
+        <div className="relative bg-[#3e813e] rounded-t-lg text-white w-[50%] lg:w-[26%] h-1/2 mx-4 md:ml-[61px] text-center mt-8 md:mt-48 inline-block z-[1]">
+          <div className='p-3 md:p-5 flex flex-col gap-2'>
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">NOTARY NEXUS & APOSTILLE SERVICES</h1>
+            <p className="font-sans text-sm md:text-base">* GENERAL NOTARY SERVICES</p>
+            <p className="font-sans text-sm md:text-base">* LOAN SIGNING AGENT</p>
+            <p className="font-sans text-sm md:text-base">* REMOTE ONLINE NOTARY</p>
           </div>
 
-          <h2>CONTACT US:</h2>
-          <div className="contact-div">561-542-3715</div>
-          <div className="contact-div">JJACOBSPUBLICSAFETY.COM</div>
-          <div className="mb-[22px]">JJACOBSPSELLC@OUTLOOK.COM</div>
+          <div className="bg-[#85ab85] w-full md:w-[150%] text-right text-[20px] md:text-[33px] pr-[25px] md:pr-[50px]">
+            <p className="mb-0 pt-[10px]">JEFFERY JACOBS</p>
+            <p className="mt-0 mr-[47px] md:mr-[94px] pb-[10px]">CEO</p>
+          </div>
+
+          <div className='p-3 md:p-5'>
+            <h2 className="text-sm md:text-base">CONTACT US:</h2>
+            <div className="contact-div text-sm md:text-base">561-542-3715</div>
+            <div className="contact-div text-sm md:text-base">JJACOBSPUBLICSAFETY.COM</div>
+            <div className="mb-[22px] text-sm md:text-base">JJACOBSPSELLC@OUTLOOK.COM</div>
+          </div>
         </div>
 
-        <div className="inline-block bg-[#D2B48C] -ml-1 p-4">
-          <span className="text-[#3e813e] text-[29px] font-bold">
+        <div className="inline-block bg-[#D2B48C] -ml-5 p-4 md:p-9.5">
+          <span className="text-[#3e813e] text-[20px] md:text-[29px] font-bold">
             NEED NOTARY,<br />
             WE WILL TRAVEL.
           </span>
