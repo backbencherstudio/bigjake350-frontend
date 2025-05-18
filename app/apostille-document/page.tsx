@@ -1,5 +1,9 @@
+import CommonQuestions from '@/components/ApostilleDocument/CommonQuestions';
 import Documents from '@/components/ApostilleDocument/Documents';
 import FloridaApostilleService from '@/components/ApostilleDocument/FloridaApostilleService';
+import ObtainingFloridaApostille from '@/components/ApostilleDocument/ObtainingFloridaApostille';
+import TalkOurExpertsBanner from '@/components/ApostilleDocument/TalkOurExpertsBanner';
+import WeOfferMore from '@/components/ApostilleDocument/WeOfferMore';
 import ButtonReusable from '@/components/reusable/ButtonReuseble';
 import React from 'react'
 
@@ -54,6 +58,10 @@ export default function ApostilleDocument() {
 
             <FloridaApostilleService />
             <Documents />
+            <TalkOurExpertsBanner />
+            <ObtainingFloridaApostille />
+            <WeOfferMore />
+            <CommonQuestions />
         </>
 
     )
