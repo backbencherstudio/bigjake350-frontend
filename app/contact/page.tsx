@@ -13,10 +13,12 @@ export default function ContactPage() {
         title="Contact - Notary Nexus & Apostille Services"
         imageUrl="/pictures/office-building.png"
       />
+      <div className="lg:mx-auto mx-6 my-12">
 
-      <div className="flex m-6 flex-col max-w-7xl mx-auto lg:flex-row bg-gradient-to-br from-green-600 to-green-900 text-white p-8 lg:p-16 gap-10 mt-12 rounded-lg shadow-md">
+      <div className=" flex   flex-col container  lg:flex-row bg-gradient-to-br from-green-600 to-green-900 text-white p-8 lg:p-16 gap-10  rounded-lg shadow-md">
         <ContactIntro />
         <ContactForm />
+      </div>
       </div>
     </div>
   );

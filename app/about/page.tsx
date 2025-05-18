@@ -12,7 +12,7 @@ export default function AboutPage() {
         title="About - Notary Nexus & Apostille Services"
         imageUrl="/pictures/office-building.png"
       />
-      <section className="max-w-7xl  px-6 lg:px-16 py-12 mx-auto">
+      <section className="container  px-6 lg:px-16 py-12 mx-auto">
         <div className="  backdrop-blur-md bg-white/10 border border-white/30 rounded-3xl shadow-lg px-6 mt-8 mb-10 lg:px-16 py-12 mx-auto font-sans">
           <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start">
             <BioHighlight />
