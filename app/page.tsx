@@ -3,6 +3,7 @@ import bannerImage from "@/public/pictures/banner.png"
 import businessLogo from "@/public/pictures/business-logo2.png"
 import Image from 'next/image'
 import MobileNotaryServices from '@/components/Home/MobileNotaryServices'
+import OurMobileNotaryServices from '@/components/Home/OurMobileNotaryServices'
 
 export default function Home() {
   return (
@@ -50,6 +51,9 @@ export default function Home() {
         </div>
       </div>
       <MobileNotaryServices />
+
+      <OurMobileNotaryServices />
     </>
   )
 }
+
