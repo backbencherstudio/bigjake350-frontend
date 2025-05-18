@@ -3,7 +3,9 @@ import Image from 'next/image'
 import bgImage from '@/public/pictures/office-building.png'
 import bgImage2 from '@/public/pictures/notary-official2.png'
 import HeroSection from '@/components/common/HeroSection'
-import NotaryPublicServices from '@/components/common/NotaryPublicServices'
+import NotaryPublicServices from '@/components/Resources/NotaryPublicServices'
+import WeProvide from '@/components/Resources/WeProvide'
+import NotaryServices from '@/components/Resources/NotaryServices'
 
 export default function Resources() {
     return (
@@ -29,6 +31,10 @@ export default function Resources() {
 
                 {/* Notary Public Services */}
                 <NotaryPublicServices />
+                {/* We Provide */}
+                <WeProvide />
+                {/* Notary Services */}
+                <NotaryServices />
             </div>
 
 
