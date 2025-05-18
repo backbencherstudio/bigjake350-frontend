@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '@/public/pictures/business-logo2.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import ButtonReusable from '../reusable/ButtonReuseble'
 
 export default function Footer() {
     return (
@@ -54,12 +55,11 @@ export default function Footer() {
                     </div>
                     <div className='text-center'>
                         <p className='font-bold text-gray-900 mb-2'>Need a Notary?</p>
-                        <button className='bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors'>
-                            Schedule One Today!
-                        </button>
+                        <ButtonReusable title='Schedule One Today!' variant='secondary' />
                     </div>
                 </div>
             </div>
         </div>
+
     )
 }

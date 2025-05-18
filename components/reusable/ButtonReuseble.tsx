@@ -20,8 +20,8 @@ export default function ButtonReusable({
     const baseStyle = 'px-4 py-2 font-medium transition-all duration-300';
 
     const variantStyles = {
-        primary: 'rounded-full bg-blue-600 hover:bg-blue-700',
-        secondary: 'rounded-full bg-gray-600 hover:bg-gray-700',
+        primary: 'rounded-full bg-blue-600 hover:bg-blue-700 cursor-pointer',
+        secondary: 'rounded-full bg-gray-600 hover:bg-gray-700 cursor-pointer',
         outline: 'rounded-full cursor-pointer border px-6 py-3 text-sm hover:bg-gray-200 hover:text-green-700 transition'
     };
 
