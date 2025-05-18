@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ButtonReusable from "../reusable/ButtonReuseble";
 
 export default function Header() {
@@ -10,8 +11,12 @@ export default function Header() {
       <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-4">
 
 
-        <ButtonReusable title=" Apostille Your Document" variant="outline" />
-        <ButtonReusable title="Schedule A Notary" variant="outline" />
+        <Link href="/apostille-document">
+          <ButtonReusable title=" Apostille Your Document" variant="outline" />
+        </Link>
+        <Link href="/schedule-notary">
+          <ButtonReusable title="Schedule A Notary" variant="outline" />
+        </Link>
       </div>
     </div>
   );
