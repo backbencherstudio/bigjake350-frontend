@@ -42,6 +42,7 @@ export default function ContactForm() {
   };
 
   return (
+    
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full lg:w-1/2">
       {/* Name Fields */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

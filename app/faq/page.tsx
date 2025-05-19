@@ -7,7 +7,7 @@ import HeroSection from "@/components/common/HeroSection";
 
 export default function FAQPage() {
   return (
-    <div className=" bg-gradient-to-br from-green-600 to-green-900 mx-auto font-sans">
+    <div className=" bg-gradient-to-br from-gray-200 to-gray-100 mx-auto font-sans">
 
       <HeroSection
         title="FAQ"
