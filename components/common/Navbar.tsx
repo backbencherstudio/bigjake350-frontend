@@ -29,8 +29,9 @@ export default function Navbar() {
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
-                className={`transition-colors duration-200 font-medium ${isActive(item) ? "text-teal-600" : "hover:text-teal-600"
-                  }`}
+                className={`transition-colors duration-200 font-medium ${
+                  isActive(item) ? "text-[#3e813e]  border-b border-[#3e813e]" : "hover:text-teal-600"
+                }`}
               >
                 {item}
               </Link>
@@ -54,8 +55,9 @@ export default function Navbar() {
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
-                className={`block py-1 transition-colors duration-200 ${isActive(item) ? "text-blue-600" : ""
-                  }`}
+                className={`block py-1 transition-colors duration-200 ${
+                  isActive(item) ? "text-[#3e813e]" : ""
+                }`}
                 onClick={() => setOpen(false)}
               >
                 {item}

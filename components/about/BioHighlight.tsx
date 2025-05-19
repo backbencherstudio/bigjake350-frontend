@@ -8,7 +8,7 @@ export default function BioHighlight() {
       <h3 className="text-xl text-green-100">Learn about the team</h3>
       <a
         href="/contact"
-        className="text-green-100 inline-block mt-4 rounded-full border border-gray-300 px-8 py-3 text-[17px] bg-green-700 hover:bg-gray-200 hover:text-green-800 transition"
+        className="text-green-700 inline-block mt-4 rounded-full border border-green-700 px-8 py-3 text-[17px]   hover:bg-gray-200 hover:text-green-800 transition"
       >
         Contact us
       </a>

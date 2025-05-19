@@ -7,7 +7,7 @@ import HeroSection from "@/components/common/HeroSection";
 
 export default function AboutPage() {
   return (
-    <div className="bg-gradient-to-t from-green-800 to-white mx-auto font-sans">
+    <div className="bg-gradient-to-t from-green-800 via-white to-white mx-auto font-sans">
       <HeroSection
         title="About - Notary Nexus & Apostille Services"
         imageUrl="/pictures/office-building.png"
