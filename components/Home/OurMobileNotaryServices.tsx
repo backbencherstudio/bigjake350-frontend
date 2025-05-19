@@ -17,7 +17,7 @@ export default function OurMobileNotaryServices() {
 
             <div className='w-full'>
                 {services.map((item, index) => (
-                    <div key={index} className='border-t border-x border-gray-400 last:border-b transition-colors duration-200 '>
+                    <div key={index} className='border-t border-x border-gray-400 last:border-b transition-colors duration-200'>
                         <button
                             onClick={() => toggleQuestion(index)}
                             className='w-full flex items-center gap-4 p-4 text-left hover:bg-gray-50 rounded-lg cursor-pointer'
