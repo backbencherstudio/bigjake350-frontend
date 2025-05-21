@@ -28,9 +28,9 @@ export const NotaryPublic = [
     {
         question: "Translation Services",
         answer: "Our team can help translate a variety of languages for your convenience. If you have documents you need translated, contact our team today.",
-    },
-    {
-        question: "Weddings and Elopements",
-        answer: "If you’re ready to tie the knot, our team is ready to help you get any documents you need signed and notarized fast!",
     }
+    // {
+    //     question: "Weddings and Elopements",
+    //     answer: "If you’re ready to tie the knot, our team is ready to help you get any documents you need signed and notarized fast!",
+    // }
 ]
