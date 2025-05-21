@@ -25,7 +25,7 @@ export default function Footer() {
                             <div>
                                 <h3 className='font-bold text-gray-900 mb-3 border-b border-gray-300 pb-2' >Main Office</h3>
                                 <div className=''>
-                                    <p className='text-gray-700'>1234 Random Road Blvd, Tallahassee Fl 32301</p>
+                                    <p className='text-gray-700'>1640 Metropolitan Circle Suit #6. Tallahassee. FL 32308</p>
                                 </div>
                             </div>
 
