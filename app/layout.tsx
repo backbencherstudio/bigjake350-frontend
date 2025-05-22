@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import { AppConfig } from "@/config/app.config";
+
 import Header from "@/components/common/header";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
