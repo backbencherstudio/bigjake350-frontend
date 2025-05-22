@@ -70,10 +70,10 @@ export const OurMobileNotaryServices = [
         description: "Embrace the future of notarization with our remote online notary services! Experience the convenience of digitally signing and notarizing your documents from the comfort of your own home or office without compromising on security or legality. However, we cannot help you get married online! But congratulations anyway! We are, however, available globally as long as you have a good network connection.",
 
     },
-    {
-        question: "Offshore Signings",
-        description: "Our team will also assist with offshore signings. This entails a mobile notary traveling to a specific offshore site, such as a ship a few miles offshore, to authenticate and notarize important documents. This service ensures accessibility and convenience for clients who require notarization in unconventional or remote settings, accommodating their specific needs and maintaining the legal validity of their documents.",
-    },
+    // {
+    //     question: "Offshore Signings",
+    //     description: "Our team will also assist with offshore signings. This entails a mobile notary traveling to a specific offshore site, such as a ship a few miles offshore, to authenticate and notarize important documents. This service ensures accessibility and convenience for clients who require notarization in unconventional or remote settings, accommodating their specific needs and maintaining the legal validity of their documents.",
+    // },
     // {
     //     question: "Fingerprinting",
     //     description: "Accurate and reliable fingerprinting is crucial for various official and legal purposes. Our fingerprinting services are designed to provide you with precise fingerprinting solutions, meeting all necessary requirements.",
