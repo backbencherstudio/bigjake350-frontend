@@ -12,7 +12,7 @@ export default function FaqList() {
   };
 
   return (
-    <section className="max-w-5xl mx-auto px-4 py-12 text-[18px]">
+    <section className="container  px-4 py-12 text-[18px]">
       {faqItems.map((item, index) => (
        <motion.div
     key={index}

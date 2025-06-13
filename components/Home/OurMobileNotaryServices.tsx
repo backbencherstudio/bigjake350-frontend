@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { OurMobileNotaryServices as services } from '@/data/OurMobileNotaryServices'
 import { Plus, Minus } from 'lucide-react'
+import Link from 'next/link'
 
 export default function OurMobileNotaryServices() {
     const [openIndex, setOpenIndex] = useState<number | null>(null)
@@ -58,12 +59,12 @@ export default function OurMobileNotaryServices() {
                                         ))}
                                         {item.answer.button && (
                                             <div className='mt-6'>
-                                                <a
+                                                <Link
                                                     href={item.answer.button.link}
                                                     className='inline-block px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors'
                                                 >
                                                     {item.answer.button.text}
-                                                </a>
+                                                </Link>
                                             </div>
                                         )}
                                     </>

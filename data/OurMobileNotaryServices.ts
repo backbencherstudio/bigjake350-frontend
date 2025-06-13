@@ -60,7 +60,7 @@ export const OurMobileNotaryServices = [
             ],
             button: {
                 text: "Apostille Your Document!",
-                link: "#"
+                link: "/apostille-document"
             }
         }
     },
@@ -70,21 +70,21 @@ export const OurMobileNotaryServices = [
         description: "Embrace the future of notarization with our remote online notary services! Experience the convenience of digitally signing and notarizing your documents from the comfort of your own home or office without compromising on security or legality. However, we cannot help you get married online! But congratulations anyway! We are, however, available globally as long as you have a good network connection.",
 
     },
-    {
-        question: "Offshore Signings",
-        description: "Our team will also assist with offshore signings. This entails a mobile notary traveling to a specific offshore site, such as a ship a few miles offshore, to authenticate and notarize important documents. This service ensures accessibility and convenience for clients who require notarization in unconventional or remote settings, accommodating their specific needs and maintaining the legal validity of their documents.",
-    },
-    {
-        question: "Fingerprinting",
-        description: "Accurate and reliable fingerprinting is crucial for various official and legal purposes. Our fingerprinting services are designed to provide you with precise fingerprinting solutions, meeting all necessary requirements.",
-        answer: {
-            sections: [
-                {
-                    title: "Please note: we only offer in person fingerprinting services at this time.",
-                }
-            ]
-        }
-    },
+    // {
+    //     question: "Offshore Signings",
+    //     description: "Our team will also assist with offshore signings. This entails a mobile notary traveling to a specific offshore site, such as a ship a few miles offshore, to authenticate and notarize important documents. This service ensures accessibility and convenience for clients who require notarization in unconventional or remote settings, accommodating their specific needs and maintaining the legal validity of their documents.",
+    // },
+    // {
+    //     question: "Fingerprinting",
+    //     description: "Accurate and reliable fingerprinting is crucial for various official and legal purposes. Our fingerprinting services are designed to provide you with precise fingerprinting solutions, meeting all necessary requirements.",
+    //     answer: {
+    //         sections: [
+    //             {
+    //                 title: "Please note: we only offer in person fingerprinting services at this time.",
+    //             }
+    //         ]
+    //     }
+    // },
     {
         question: "Courier Services",
         description: "With our courier services, we take care of the logistics, ensuring your documents reach their destination securely and on time. Rest easy, knowing your important paperwork is in safe hands. We will assist with: walking documents into courthouses, county clerks office, attorney to attorney communication, delivery to clients and contractors, and title companies.",
@@ -117,11 +117,11 @@ export const OurMobileNotaryServices = [
             ]
         }
     },
-    {
-        question: "Weddings and Elopements",
-        description: "Our team offers weddings and elopements. We can help with the planning, coordination and day of necessities for your big day. Whether it’s a huge celebration or a private ceremony, we’ve got you covered. First meeting can be over zoom or in person to discuss what your needs are. If you need quality referrals to other vendors to make your special day absolutely perfect, we have all of those connections for you which makes us a 1 stop shop for all of your wedding needs.",
+    // {
+    //     question: "Weddings and Elopements",
+    //     description: "Our team offers weddings and elopements. We can help with the planning, coordination and day of necessities for your big day. Whether it’s a huge celebration or a private ceremony, we’ve got you covered. First meeting can be over zoom or in person to discuss what your needs are. If you need quality referrals to other vendors to make your special day absolutely perfect, we have all of those connections for you which makes us a 1 stop shop for all of your wedding needs.",
 
-    },
+    // },
     {
         question: "Loan Signing",
     }

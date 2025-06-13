@@ -21,7 +21,9 @@ export default function Navbar() {
   return (
     <nav className="w-full border-b border-gray-300  py-4 bg-white sticky top-0 z-50">
       <div className="container px-5 2xl:px-0 flex justify-between items-center">
-        <h1 className="text-xl font-semibold font-serif text-green-700">NOTARY NEXUS</h1>
+        <Link href="/">
+          <h1 className="text-xl font-semibold font-serif text-green-700">NOTARY NEXUS</h1>
+        </Link>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-6 text-base">
@@ -29,9 +31,8 @@ export default function Navbar() {
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
-                className={`transition-colors duration-200 font-medium ${
-                  isActive(item) ? "text-[#3e813e]  border-b border-[#3e813e]" : "hover:text-teal-600"
-                }`}
+                className={`transition-colors duration-200 font-medium ${isActive(item) ? "text-[#3e813e]  border-b border-[#3e813e]" : "hover:text-teal-600"
+                  }`}
               >
                 {item}
               </Link>
@@ -55,9 +56,8 @@ export default function Navbar() {
             <li key={item}>
               <Link
                 href={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
-                className={`block py-1 transition-colors duration-200 ${
-                  isActive(item) ? "text-[#3e813e]" : ""
-                }`}
+                className={`block py-1 transition-colors duration-200 ${isActive(item) ? "text-[#3e813e]" : ""
+                  }`}
                 onClick={() => setOpen(false)}
               >
                 {item}

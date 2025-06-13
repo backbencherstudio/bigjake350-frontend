@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { AppConfig } from "@/config/app.config";
+
 import Header from "@/components/common/header";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
 
 export const metadata: Metadata = {
-  title: AppConfig().app.name,
-  description: AppConfig().app.slogan,
+  title: "Notary Nexus",
+  description: "Notary Nexus",
 };
 
 export default function RootLayout({

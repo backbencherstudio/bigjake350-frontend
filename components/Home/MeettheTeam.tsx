@@ -4,7 +4,7 @@ import { User } from 'lucide-react'
 export default function MeettheTeam() {
     const team = [
         {
-            name: "Jeffery Jacob",
+            name: "Jeffrey Jacobs",
             title: "CEO"
         },
         {
