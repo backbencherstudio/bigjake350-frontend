@@ -9,23 +9,19 @@ export const OurMobileNotaryServices = [
                 {
                     content: "Areas that we cover:",
                     list: [
-                        "Clearwater",
-                        "Crystal Beach",
-                        "Downtown",
-                        "Orlando",
-                        "Dunedin",
-                        "East Orlando",
-                        "Lake Nona",
-                        "Oldsmar",
-                        "Ozona",
-                        "Palm Harbor",
-                        "Riverview",
-                        "Safety Harbor",
-                        "South Orlando",
-                        "St. Petersburg",
-                        "Tampa",
-                        "Tarpon Springs",
-                        "West Orlando"
+                        "Chattahoochee",
+                        "Gretna",
+                        "Midway",
+                        "Quincy",
+                        "Monticello",
+                        "Greenville",
+                        "Madison",
+                        "Tallahassee",
+                        "Crawfordville",
+                        "Woodville",
+                        "Marianna",
+                        "Panacea",
+                        "Havana"
                     ]
                 }
             ]
@@ -38,7 +34,7 @@ export const OurMobileNotaryServices = [
             sections: [
                 {
                     title: "How Does Apostille Service Work?",
-                    content: "We are happy to help you in person if we are local to you or if not, I have the ability to help anyone from anywhere in the world via our remote online platform. We prefer a phone call/zoom ahead of time and to see the documents so we can give accurate pricing as each Apostilled document is different. (This includes all 50 States.) The way it works is you contact us either in the US at 727-435-7865 or use the same number for WhatsApp/Signal if you are outside the US. Zoom is also an option. Once we figure out how we are working together and we see the documents so we know exactly what they need to have done, we can then provide accurate pricing. When we meet, we will do exactly what we discussed and then we will send the documents to our contact in Tallahassee who will help expedite the process. In a few days time, your documents will be back to you, ready to go. Expected turn around time (excluding weekends and holidays) should not be more than a week, once we get everything moving."
+                    content: "We are happy to help you in person if we are local to you or if not, I have the ability to help anyone from anywhere in the world via our remote online platform. We prefer a phone call/zoom ahead of time and to see the documents so we can give accurate pricing as each Apostilled document is different. (This includes all 50 States.) The way it works is you contact us either in the US at 561-542-3715 or use the same number for WhatsApp/Signal if you are outside the US. Zoom is also an option. Once we figure out how we are working together and we see the documents so we know exactly what they need to have done, we can then provide accurate pricing. When we meet, we will do exactly what we discussed and then we will send the documents to our contact in Tallahassee who will help expedite the process. In a few days time, your documents will be back to you, ready to go. Expected turn around time (excluding weekends and holidays) should not be more than a week, once we get everything moving."
                 },
                 {
                     title: "Pricing:",

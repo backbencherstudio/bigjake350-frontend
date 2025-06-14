@@ -1,22 +1,23 @@
 import React from 'react'
 import { User } from 'lucide-react'
+import Image from 'next/image'
 
 export default function MeettheTeam() {
     const team = [
         {
             name: "Necole",
             title: "CO-CEO",
-            image: "/images/team/jeffrey-jacobs.jpg"
+            image: ""
         },
         {
             name: "Jeffrey Jacobs",
             title: "CEO",
-            image: "/images/team/jeffrey-jacobs.jpg"
+            image: "/pictures/meetTeam/ceo.jpg"
         },
         {
-            name: "Blank",
+            name: "Amanda",
             title: "Notary partner",
-            image: "/images/team/jeffrey-jacobs.jpg"
+            image: "/pictures/meetTeam/Notary-partner.png"
         }
     ]
 
@@ -30,11 +31,17 @@ export default function MeettheTeam() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
                 {team.map((member, index) => (
                     <div key={index} className='bg-white rounded-t-[50px] rounded-s-[50px] shadow-[0_4px_20px_0px_rgba(0,0,0,0.3)] p-8 flex flex-col items-center'>
-                        <div className='bg-[#2563eb] rounded-full p-6'>
-                            <User className='w-16 h-16 text-white' />
+                        <div>
+                            {
+                                member.image ? (
+                                    <Image src={member.image} alt={member.name} className='w-36 h-36 rounded-full object-cover' width={144} height={144} />
+                                ) : (
+                                    <User className='w-36 h-36 text-white border-2 border-gray-300 rounded-full p-2' />
+                                )
+                            }
                         </div>
                         <h3 className='mt-6 text-md md:text-xl font-bold text-black uppercase'>{member.name}</h3>
-                        <p className='mt-2 text-gray-600 text-center'>{member.title}</p>
+                        <p className='mt-2 text-gray-600 text-center capitalize '>{member.title}</p>
                     </div>
                 ))}
             </div>
