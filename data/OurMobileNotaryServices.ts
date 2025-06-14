@@ -32,7 +32,7 @@ export const OurMobileNotaryServices = [
         }
     },
     {
-        question: "Apostille Servicers",
+        question: "Apostille Services",
         description: "An Apostille (pronounced 'ah-po-steel') is a French word meaning certification. An Apostille is simply the name for a specialized certificate, issued by the Secretary of State. The Apostille is attached to your original document to verify it is legitimate and authentic so it will be accepted in one of the other countries who are members of the Hague Apostille Convention.",
         answer: {
             sections: [
