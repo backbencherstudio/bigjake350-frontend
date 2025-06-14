@@ -4,16 +4,19 @@ import { User } from 'lucide-react'
 export default function MeettheTeam() {
     const team = [
         {
+            name: "Necole",
+            title: "CO-CEO",
+            image: "/images/team/jeffrey-jacobs.jpg"
+        },
+        {
             name: "Jeffrey Jacobs",
-            title: "CEO"
+            title: "CEO",
+            image: "/images/team/jeffrey-jacobs.jpg"
         },
         {
             name: "Blank",
-            title: "CEO"
-        },
-        {
-            name: "Blank",
-            title: "CEO"
+            title: "Notary partner",
+            image: "/images/team/jeffrey-jacobs.jpg"
         }
     ]
 
