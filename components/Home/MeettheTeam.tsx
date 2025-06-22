@@ -4,19 +4,27 @@ import Image from 'next/image'
 
 export default function MeettheTeam() {
     const team = [
-        {
-            name: "Necole",
-            title: "CO-CEO",
-            image: ""
-        },
+
         {
             name: "Jeffrey Jacobs",
             title: "CEO",
+            subtitle: "",
+            email: "",
             image: "/pictures/meetTeam/ceo.jpg"
         },
         {
+            name: "Necole",
+            title: "Vice President",
+            subtitle: "Notary Public",
+            email: "",
+            image: "/pictures/meetTeam/team_co.jpg"
+        },
+
+        {
             name: "Amanda",
             title: "Notary partner",
+            subtitle: "( I Need A Notary )",
+            email: "amandalofflernotary@gmail.com",
             image: "/pictures/meetTeam/Notary-partner.png"
         }
     ]
@@ -42,6 +50,7 @@ export default function MeettheTeam() {
                         </div>
                         <h3 className='mt-6 text-md md:text-xl font-bold text-black uppercase'>{member.name}</h3>
                         <p className='mt-2 text-gray-600 text-center capitalize '>{member.title}</p>
+                        <p className='mt-2 text-gray-500 text-sm text-center capitalize '>{member.subtitle}</p>
                     </div>
                 ))}
             </div>
