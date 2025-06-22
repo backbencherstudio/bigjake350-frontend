@@ -41,7 +41,7 @@ export default function Home() {
           <div className='p-3 md:p-5'>
             <h2 className="text-sm md:text-base">CONTACT US:</h2>
             <div className="contact-div text-sm md:text-base">561-542-3715</div>
-            <div className="contact-div text-sm md:text-base">JJACOBSPUBLICSAFETY.COM</div>
+            {/* <div className="contact-div text-sm md:text-base">JJACOBSPUBLICSAFETY.COM</div> */}
             <div className="mb-[22px] text-sm md:text-base">JJACOBSPSELLC@OUTLOOK.COM</div>
           </div>
         </div>
