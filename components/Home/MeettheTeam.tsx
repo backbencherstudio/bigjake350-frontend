@@ -51,6 +51,7 @@ export default function MeettheTeam() {
                         <h3 className='mt-6 text-md md:text-xl font-bold text-black uppercase'>{member.name}</h3>
                         <p className='mt-2 text-gray-600 text-center capitalize '>{member.title}</p>
                         <p className='mt-2 text-gray-500 text-sm text-center capitalize '>{member.subtitle}</p>
+                        <p className='mt-2 text-gray-500 text-sm text-center'>{member.email}</p>
                     </div>
                 ))}
             </div>
